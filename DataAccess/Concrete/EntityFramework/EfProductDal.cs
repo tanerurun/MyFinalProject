@@ -50,14 +50,7 @@ namespace DataAccess.Concrete.EntityFramework
                     
             }
         }
-
-
-
-
-
-
-
-
+ 
         public void Update(Product entity)
         {
             using (NorthwindContext context = new NorthwindContext())
