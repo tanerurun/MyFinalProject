@@ -1,0 +1,14 @@
+﻿burada veri erişim kodlarını yazıyoruz.
+buradan projemiz Business ile database arasında arabulucukluk yapacak kodları yazacağız.
+
+
+**soyutlar abstract içinde olacak.Referans tutucları buraya ekleceyeceğiz.
+**somutlar Concrete içinde olacak.İşi yapanlar buranın içine eklenecek
+
+
+** FARKLI ORTAMLARDA DATA ÇEKEBİLİRİZ.
+BURADA VERİYE ERİŞİMİ BURADA YAPIYORUZ.
+DATAACCESS İÇERSİNDE VERİ ERİŞİMİ YAPIYORUZ.
+
+
+***iş yapan clasların(nesnelerin)  interfaci yoksa önce interfaceini oluştur her zaman bu bir alışkanlık olmalıdır.

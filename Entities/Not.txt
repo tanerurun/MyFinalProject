@@ -1,0 +1,11 @@
+﻿Yardımcı proje olarak  ekliyoruz. //model gibi yani database verileri eklenecektir.
+
+
+**soyutlar abstract içinde olacak.Referans tutucları buraya ekleceyeceğiz.
+**somutlar Concrete içinde olacak.İşi yapanlar buranın içine eklenecek
+
+
+*** IEntity veritabanı demek
+
+
+7 videodan başladı bu proje
