@@ -2,3 +2,6 @@
 bu projemizde UI ile DataAccess arasında iletişimi sağlamaktadır bu görevi gören kodalar yazılacaktır.
 **soyutlar abstract içinde olacak.Referans tutucları buraya ekleceyeceğiz.
 **somutlar Concrete içinde olacak.İşi yapanlar buranın içine eklenecek
+
+
+proje sabitlerini Constants içine ekleyeceğiz.
