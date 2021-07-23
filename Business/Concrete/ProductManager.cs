@@ -2,6 +2,7 @@
 using DataAccess.Abstract;
 using DataAccess.Concrete.InMemory;
 using Entities.Concrete;
+using Entities.DTOs;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -16,6 +17,12 @@ namespace Business.Concrete
             //BURASI ÖNEMLİDİR.
         {
             _productDal = productDal;
+        }
+
+        public void Add(Product product)
+        {
+            //business codes buraya yazılır.
+            _productDal.Add(product);
         }
 
         //İNECTİON YAPIYORUZ.//SOYUT NESEN İLE BAĞLANTI KURUACAĞIZ.
@@ -35,6 +42,11 @@ namespace Business.Concrete
         public List<Product> GetByUnitPrice(decimal min, decimal max)
         {
             return _productDal.GetAll(p => p.UnitPrice >= min && p.UnitPrice <= max);
+        }
+
+        public List<ProductDetailDto> GetProductDetails()
+        {
+            return _productDal.GetProductDetails();
         }
     }
 }
