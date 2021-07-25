@@ -25,7 +25,8 @@ namespace Business.Concrete
         public IResult Add(Product product)
         {
               
-           
+           //Validation
+           //bussiness codes
             //business codes buraya yazılır.
 
             if(product.ProductName.Length<2)
